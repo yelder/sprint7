@@ -1,21 +1,26 @@
 import React,{ Component } from'react';
 import './App.css';
 import linea from './assets/linea.json'
+import {Cuadrado} from './components/styled'
 
 
-class App extends Component {
-  state = {
-   linea: linea
-  }
-  
-     render () {
-    return <div>
-      { this.state.linea.map (e=> <p>{e}</p>)}
-  
-    </div>  
-   }
-  
-  }
+function App() {
 
+return(
+<div className="App">
+<div className="posts">
+{
+  linea.map(post =>{
+    return(
+      <>
+      <p>{post}</p>
+      </>
+    )
+  })
+}
+</div>
+</div>
+); 
+}
   export default App;
   
