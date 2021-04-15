@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 2rem;
+}
+
+.botones {
+  margin-top: 1rem;
+}
+p {
+  margin-top: 1rem;
+  font-size: 20px;
+  color: white;
+}
